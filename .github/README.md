@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-service-catalog-appregistry`](https://www.npmjs.com/package/@aws-sdk/client-service-catalog-appregistry/v/3.226.0).
+[`@aws-sdk/client-service-catalog-appregistry`](https://www.npmjs.com/package/@aws-sdk/client-service-catalog-appregistry/v/3.229.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-service-catalog-appregistry@3.226.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-service-catalog-appregistry@3.229.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-gaZkmjH9Um1DjasWhtwojG4aF5Oc72e64MnF2G8QMWbke+dVZtQHcfqCBbP4J5LC
+sha384-476xiikrQ7ue0z8fPPJ6yyp01i8lN8K5KZ5U7E8SAOqXAyWN6y64T+d4eAnnTVm6
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-service-catalog-appregistry": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-service-catalog-appregistry@3.226.0/index.min.mjs"
+            "@aws-sdk/client-service-catalog-appregistry": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-service-catalog-appregistry@3.229.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-service-catalog-appregistry@3.226.0/index.min.mjs": "sha384-gaZkmjH9Um1DjasWhtwojG4aF5Oc72e64MnF2G8QMWbke+dVZtQHcfqCBbP4J5LC"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-service-catalog-appregistry@3.229.0/index.min.mjs": "sha384-476xiikrQ7ue0z8fPPJ6yyp01i8lN8K5KZ5U7E8SAOqXAyWN6y64T+d4eAnnTVm6"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-service-catalog-appregistry": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-service-catalog-appregistry@3.226.0/index.min.mjs"
+                        "@aws-sdk/client-service-catalog-appregistry": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-service-catalog-appregistry@3.229.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-service-catalog-appregistry@3.226.0/index.min.mjs": "sha384-gaZkmjH9Um1DjasWhtwojG4aF5Oc72e64MnF2G8QMWbke+dVZtQHcfqCBbP4J5LC"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-service-catalog-appregistry@3.229.0/index.min.mjs": "sha384-476xiikrQ7ue0z8fPPJ6yyp01i8lN8K5KZ5U7E8SAOqXAyWN6y64T+d4eAnnTVm6"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.226.0`)
+* Always pin to a specific version (`@3.229.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-service-catalog-appregistry/blob/refs/tags/3.226.0/LICENSE
+https://github.com/cloud-sdk-builds/client-service-catalog-appregistry/blob/refs/tags/3.229.0/LICENSE
 ```
 
 ---
